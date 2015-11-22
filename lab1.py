@@ -8,21 +8,29 @@ __copyright__ = "2015 Susan Sim"
 __license__ = "MIT License"
 
 
-
-
 def vowel_or_consonant():
-    letter = raw_input("Is it a vowel or a consonant?")
-    if letter == ("a"):
+    """
+    Exercise: Vowel or Consonant
+    Reads a letter of the alphabet from the user. (You can assume that it's
+    lowercase.) If the user enters a, e, i, o or u then your program should
+    display "vowel". If the user enters y then your program should display
+    "sometimes a vowel, sometimes a consonant". Otherwise your program should
+    display a message indicating that the letter is a "consonant".
+    """
+
+
+    vowel_or_consonant = raw_input("Is this a vowel or consonant?")
+    if vowel_or_consonant == 'a':
         print("vowel")
-    elif letter == "e":
+    elif vowel_or_consonant == 'e':
         print("vowel")
-    elif letter == ("i"):
+    elif vowel_or_consonant == 'i':
         print("vowel")
-    elif letter == ("o"):
+    elif vowel_or_consonant == 'o':
         print("vowel")
-    elif letter == ("u"):
+    elif vowel_or_consonant == 'u':
         print("vowel")
-    elif letter == ("y"):
+    elif vowel_or_consonant == 'y':
         print("sometimes a vowel, sometimes a consonant")
     else:
         print("consonant")

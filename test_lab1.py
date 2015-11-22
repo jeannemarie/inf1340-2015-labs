@@ -10,7 +10,6 @@ __license__ = "MIT License"
 import mock
 from lab1 import vowel_or_consonant
 
-
 def test_vowel_or_consonant(capsys):
 
     vowels = list("aeiou")
